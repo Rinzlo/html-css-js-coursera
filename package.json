@@ -1,0 +1,25 @@
+{
+  "name": "html-css-js-coursera",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/Rinzlo/html-css-js-coursera/edit/main/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "site/index.html",
+  "scripts": {
+    "start": "browser-sync start --server --directory --files ./ -b firefox",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rinzlo/html-css-js-coursera.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rinzlo/html-css-js-coursera/issues"
+  },
+  "homepage": "https://github.com/Rinzlo/html-css-js-coursera#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "browser-sync": "^2.26.13",
+    "jquery": "^3.5.1"
+  }
+}
